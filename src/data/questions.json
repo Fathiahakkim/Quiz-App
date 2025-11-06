@@ -1,0 +1,857 @@
+{
+  "python": [
+    {
+      "id": 1,
+      "question": "What is the output of print(2 ** 3)?",
+      "options": ["5", "6", "8", "9"],
+      "answer": "8"
+    },
+    {
+      "id": 2,
+      "question": "Which keyword is used to define a function in Python?",
+      "options": ["func", "def", "function", "define"],
+      "answer": "def"
+    },
+    {
+      "id": 3,
+      "question": "What does the len() function return for the string 'Hello'?",
+      "options": ["4", "5", "6", "Error"],
+      "answer": "5"
+    },
+    {
+      "id": 4,
+      "question": "Which data type is mutable in Python?",
+      "options": ["tuple", "string", "list", "int"],
+      "answer": "list"
+    },
+    {
+      "id": 5,
+      "question": "What is the correct way to create a list in Python?",
+      "options": ["list = (1, 2, 3)", "list = [1, 2, 3]", "list = {1, 2, 3}", "list = <1, 2, 3>"],
+      "answer": "list = [1, 2, 3]"
+    },
+    {
+      "id": 6,
+      "question": "What does the range(5) function generate?",
+      "options": ["[0, 1, 2, 3, 4]", "[1, 2, 3, 4, 5]", "[0, 1, 2, 3, 4, 5]", "[5]"],
+      "answer": "[0, 1, 2, 3, 4]"
+    },
+    {
+      "id": 7,
+      "question": "Which operator is used for floor division in Python?",
+      "options": ["/", "//", "%", "**"],
+      "answer": "//"
+    },
+    {
+      "id": 8,
+      "question": "What is the output of 'hello'.upper()?",
+      "options": ["HELLO", "Hello", "hello", "Error"],
+      "answer": "HELLO"
+    },
+    {
+      "id": 9,
+      "question": "Which method is used to add an element to the end of a list?",
+      "options": ["append()", "add()", "insert()", "push()"],
+      "answer": "append()"
+    },
+    {
+      "id": 10,
+      "question": "What does the 'in' keyword check in Python?",
+      "options": ["Equality", "Membership", "Comparison", "Assignment"],
+      "answer": "Membership"
+    },
+    {
+      "id": 11,
+      "question": "What is the output of bool(0)?",
+      "options": ["True", "False", "0", "None"],
+      "answer": "False"
+    },
+    {
+      "id": 12,
+      "question": "Which module is used for working with dates in Python?",
+      "options": ["time", "datetime", "date", "calendar"],
+      "answer": "datetime"
+    },
+    {
+      "id": 13,
+      "question": "What does the strip() method do?",
+      "options": ["Removes whitespace", "Adds whitespace", "Splits string", "Joins string"],
+      "answer": "Removes whitespace"
+    },
+    {
+      "id": 14,
+      "question": "Which symbol is used for comments in Python?",
+      "options": ["//", "/*", "#", "--"],
+      "answer": "#"
+    },
+    {
+      "id": 15,
+      "question": "What is the output of [1, 2, 3] * 2?",
+      "options": ["[2, 4, 6]", "[1, 2, 3, 1, 2, 3]", "[1, 2, 3, 2]", "Error"],
+      "answer": "[1, 2, 3, 1, 2, 3]"
+    },
+    {
+      "id": 16,
+      "question": "Which function is used to read input from user?",
+      "options": ["input()", "read()", "get()", "scan()"],
+      "answer": "input()"
+    },
+    {
+      "id": 17,
+      "question": "What is the correct syntax for a dictionary?",
+      "options": ["dict = [key: value]", "dict = {key: value}", "dict = (key: value)", "dict = <key: value>"],
+      "answer": "dict = {key: value}"
+    },
+    {
+      "id": 18,
+      "question": "What does the pop() method do for a list?",
+      "options": ["Adds element", "Removes and returns element", "Sorts list", "Reverses list"],
+      "answer": "Removes and returns element"
+    },
+    {
+      "id": 19,
+      "question": "Which statement is used to handle exceptions?",
+      "options": ["try-except", "catch-throw", "error-handle", "exception-catch"],
+      "answer": "try-except"
+    },
+    {
+      "id": 20,
+      "question": "What is the output of 'Python'[1:4]?",
+      "options": ["Pyth", "yth", "ytho", "Python"],
+      "answer": "yth"
+    }
+  ],
+  "c": [
+    {
+      "id": 1,
+      "question": "What is the size of an int in C (typically)?",
+      "options": ["2 bytes", "4 bytes", "8 bytes", "Depends on system"],
+      "answer": "Depends on system"
+    },
+    {
+      "id": 2,
+      "question": "Which operator is used to get the address of a variable?",
+      "options": ["*", "&", "%", "$"],
+      "answer": "&"
+    },
+    {
+      "id": 3,
+      "question": "What does the printf() function return?",
+      "options": ["void", "int", "char*", "float"],
+      "answer": "int"
+    },
+    {
+      "id": 4,
+      "question": "Which header file is needed for printf()?",
+      "options": ["<iostream>", "<stdio.h>", "<stdlib.h>", "<string.h>"],
+      "answer": "<stdio.h>"
+    },
+    {
+      "id": 5,
+      "question": "What is the correct way to declare a pointer?",
+      "options": ["int *ptr", "int ptr*", "pointer int ptr", "int &ptr"],
+      "answer": "int *ptr"
+    },
+    {
+      "id": 6,
+      "question": "What does malloc() do?",
+      "options": ["Frees memory", "Allocates memory", "Initializes memory", "Deallocates memory"],
+      "answer": "Allocates memory"
+    },
+    {
+      "id": 7,
+      "question": "Which loop executes at least once?",
+      "options": ["for", "while", "do-while", "if"],
+      "answer": "do-while"
+    },
+    {
+      "id": 8,
+      "question": "What is the output of sizeof(char)?",
+      "options": ["1", "2", "4", "8"],
+      "answer": "1"
+    },
+    {
+      "id": 9,
+      "question": "Which operator has the highest precedence?",
+      "options": ["+", "*", "()", "="],
+      "answer": "()"
+    },
+    {
+      "id": 10,
+      "question": "What does strcpy() do?",
+      "options": ["Compares strings", "Copies string", "Concatenates strings", "Finds string length"],
+      "answer": "Copies string"
+    },
+    {
+      "id": 11,
+      "question": "What is a null pointer?",
+      "options": ["Pointer to zero", "Uninitialized pointer", "Pointer pointing to NULL", "Invalid pointer"],
+      "answer": "Pointer pointing to NULL"
+    },
+    {
+      "id": 12,
+      "question": "Which format specifier is used for float?",
+      "options": ["%d", "%f", "%c", "%s"],
+      "answer": "%f"
+    },
+    {
+      "id": 13,
+      "question": "What does the break statement do?",
+      "options": ["Continues loop", "Exits loop", "Skips iteration", "Restarts loop"],
+      "answer": "Exits loop"
+    },
+    {
+      "id": 14,
+      "question": "What is the correct way to declare an array?",
+      "options": ["int arr[]", "int arr()", "int arr{}", "array int arr"],
+      "answer": "int arr[]"
+    },
+    {
+      "id": 15,
+      "question": "Which function is used to read a string?",
+      "options": ["scanf()", "gets()", "read()", "input()"],
+      "answer": "gets()"
+    },
+    {
+      "id": 16,
+      "question": "What does the continue statement do?",
+      "options": ["Exits loop", "Skips current iteration", "Breaks loop", "Restarts program"],
+      "answer": "Skips current iteration"
+    },
+    {
+      "id": 17,
+      "question": "What is the size of a pointer (typically)?",
+      "options": ["2 bytes", "4 bytes", "8 bytes", "Depends on system"],
+      "answer": "Depends on system"
+    },
+    {
+      "id": 18,
+      "question": "Which operator is used for logical AND?",
+      "options": ["&", "&&", "|", "||"],
+      "answer": "&&"
+    },
+    {
+      "id": 19,
+      "question": "What does free() do?",
+      "options": ["Allocates memory", "Frees allocated memory", "Initializes memory", "Copies memory"],
+      "answer": "Frees allocated memory"
+    },
+    {
+      "id": 20,
+      "question": "What is the entry point of a C program?",
+      "options": ["main()", "start()", "begin()", "init()"],
+      "answer": "main()"
+    }
+  ],
+  "java": [
+    {
+      "id": 1,
+      "question": "What is the default value of an int in Java?",
+      "options": ["0", "null", "undefined", "1"],
+      "answer": "0"
+    },
+    {
+      "id": 2,
+      "question": "Which keyword is used for inheritance in Java?",
+      "options": ["extends", "implements", "inherits", "super"],
+      "answer": "extends"
+    },
+    {
+      "id": 3,
+      "question": "What is the size of an int in Java?",
+      "options": ["2 bytes", "4 bytes", "8 bytes", "Depends on system"],
+      "answer": "4 bytes"
+    },
+    {
+      "id": 4,
+      "question": "Which method is the entry point of a Java program?",
+      "options": ["main()", "start()", "run()", "init()"],
+      "answer": "main()"
+    },
+    {
+      "id": 5,
+      "question": "What does JVM stand for?",
+      "options": ["Java Virtual Machine", "Java Variable Method", "Java Visual Machine", "Java Version Manager"],
+      "answer": "Java Virtual Machine"
+    },
+    {
+      "id": 6,
+      "question": "Which keyword is used to create an object?",
+      "options": ["new", "create", "object", "instance"],
+      "answer": "new"
+    },
+    {
+      "id": 7,
+      "question": "What is the parent class of all classes in Java?",
+      "options": ["Object", "Class", "Parent", "Super"],
+      "answer": "Object"
+    },
+    {
+      "id": 8,
+      "question": "Which access modifier provides the widest access?",
+      "options": ["private", "protected", "public", "default"],
+      "answer": "public"
+    },
+    {
+      "id": 9,
+      "question": "What does the static keyword mean?",
+      "options": ["Cannot change", "Belongs to class", "Final value", "Constant"],
+      "answer": "Belongs to class"
+    },
+    {
+      "id": 10,
+      "question": "Which collection is synchronized?",
+      "options": ["ArrayList", "Vector", "LinkedList", "HashSet"],
+      "answer": "Vector"
+    },
+    {
+      "id": 11,
+      "question": "What is method overloading?",
+      "options": ["Same name, different parameters", "Different name, same parameters", "Same name, same parameters", "Inheritance"],
+      "answer": "Same name, different parameters"
+    },
+    {
+      "id": 12,
+      "question": "Which keyword is used for method overriding?",
+      "options": ["override", "@Override", "overrides", "No keyword needed"],
+      "answer": "@Override"
+    },
+    {
+      "id": 13,
+      "question": "What does the final keyword prevent?",
+      "options": ["Inheritance", "Modification", "Both", "Neither"],
+      "answer": "Both"
+    },
+    {
+      "id": 14,
+      "question": "Which interface is used for sorting?",
+      "options": ["Comparable", "Comparator", "Sortable", "Orderable"],
+      "answer": "Comparable"
+    },
+    {
+      "id": 15,
+      "question": "What is the output of System.out.println(5/2)?",
+      "options": ["2.5", "2", "2.0", "3"],
+      "answer": "2"
+    },
+    {
+      "id": 16,
+      "question": "Which exception is checked?",
+      "options": ["RuntimeException", "IOException", "NullPointerException", "ArithmeticException"],
+      "answer": "IOException"
+    },
+    {
+      "id": 17,
+      "question": "What does StringBuilder provide over String?",
+      "options": ["Immutability", "Mutability", "Thread safety", "Better performance"],
+      "answer": "Mutability"
+    },
+    {
+      "id": 18,
+      "question": "Which keyword is used for abstract classes?",
+      "options": ["abstract", "virtual", "interface", "abstract class"],
+      "answer": "abstract"
+    },
+    {
+      "id": 19,
+      "question": "What is the default value of a boolean?",
+      "options": ["true", "false", "null", "0"],
+      "answer": "false"
+    },
+    {
+      "id": 20,
+      "question": "Which package contains the Scanner class?",
+      "options": ["java.util", "java.io", "java.lang", "java.net"],
+      "answer": "java.util"
+    }
+  ],
+  "html": [
+    {
+      "id": 1,
+      "question": "What does HTML stand for?",
+      "options": ["HyperText Markup Language", "HighText Markup Language", "HyperText Markdown Language", "HomeTool Markup Language"],
+      "answer": "HyperText Markup Language"
+    },
+    {
+      "id": 2,
+      "question": "Which tag is used for the largest heading?",
+      "options": ["<h6>", "<h1>", "<head>", "<header>"],
+      "answer": "<h1>"
+    },
+    {
+      "id": 3,
+      "question": "Which attribute is used to provide alternative text for images?",
+      "options": ["src", "alt", "title", "href"],
+      "answer": "alt"
+    },
+    {
+      "id": 4,
+      "question": "Which tag is used to create a hyperlink?",
+      "options": ["<link>", "<a>", "<href>", "<url>"],
+      "answer": "<a>"
+    },
+    {
+      "id": 5,
+      "question": "Which tag is used for an unordered list?",
+      "options": ["<ol>", "<ul>", "<li>", "<list>"],
+      "answer": "<ul>"
+    },
+    {
+      "id": 6,
+      "question": "What is the correct HTML5 document structure?",
+      "options": ["<!DOCTYPE html>", "<!DOCTYPE HTML5>", "<!DOCTYPE html5>", "<html5>"],
+      "answer": "<!DOCTYPE html>"
+    },
+    {
+      "id": 7,
+      "question": "Which tag is used to define a table row?",
+      "options": ["<tr>", "<td>", "<th>", "<table>"],
+      "answer": "<tr>"
+    },
+    {
+      "id": 8,
+      "question": "Which attribute makes an input field required?",
+      "options": ["mandatory", "required", "must", "necessary"],
+      "answer": "required"
+    },
+    {
+      "id": 9,
+      "question": "Which tag is used for inline styling?",
+      "options": ["<style>", "<css>", "style attribute", "<link>"],
+      "answer": "style attribute"
+    },
+    {
+      "id": 10,
+      "question": "What does the <br> tag do?",
+      "options": ["Bold text", "Line break", "Break page", "Bracket"],
+      "answer": "Line break"
+    },
+    {
+      "id": 11,
+      "question": "Which tag is used for semantic section?",
+      "options": ["<div>", "<section>", "<span>", "<area>"],
+      "answer": "<section>"
+    },
+    {
+      "id": 12,
+      "question": "Which input type is used for email?",
+      "options": ["text", "email", "mail", "e-mail"],
+      "answer": "email"
+    },
+    {
+      "id": 13,
+      "question": "Which tag is used to embed JavaScript?",
+      "options": ["<js>", "<script>", "<javascript>", "<code>"],
+      "answer": "<script>"
+    },
+    {
+      "id": 14,
+      "question": "What does the <meta> tag provide?",
+      "options": ["Metadata", "Media", "Method", "Message"],
+      "answer": "Metadata"
+    },
+    {
+      "id": 15,
+      "question": "Which tag is used for a form?",
+      "options": ["<form>", "<input>", "<fieldset>", "<submit>"],
+      "answer": "<form>"
+    },
+    {
+      "id": 16,
+      "question": "What is the purpose of the <nav> tag?",
+      "options": ["Navigation", "Note", "New", "Name"],
+      "answer": "Navigation"
+    },
+    {
+      "id": 17,
+      "question": "Which attribute is used for inline styles?",
+      "options": ["css", "style", "stylesheet", "design"],
+      "answer": "style"
+    },
+    {
+      "id": 18,
+      "question": "What does the <footer> tag represent?",
+      "options": ["Bottom of page", "Top of page", "Sidebar", "Header"],
+      "answer": "Bottom of page"
+    },
+    {
+      "id": 19,
+      "question": "Which tag is used for emphasized text?",
+      "options": ["<bold>", "<em>", "<strong>", "<i>"],
+      "answer": "<em>"
+    },
+    {
+      "id": 20,
+      "question": "What is the purpose of the <article> tag?",
+      "options": ["Article content", "Art", "Archive", "Area"],
+      "answer": "Article content"
+    }
+  ],
+  "css": [
+    {
+      "id": 1,
+      "question": "What does CSS stand for?",
+      "options": ["Computer Style Sheets", "Cascading Style Sheets", "Creative Style Sheets", "Colorful Style Sheets"],
+      "answer": "Cascading Style Sheets"
+    },
+    {
+      "id": 2,
+      "question": "Which property is used to change text color?",
+      "options": ["font-color", "text-color", "color", "text-style"],
+      "answer": "color"
+    },
+    {
+      "id": 3,
+      "question": "Which property is used to change background color?",
+      "options": ["bg-color", "background-color", "color-background", "background"],
+      "answer": "background-color"
+    },
+    {
+      "id": 4,
+      "question": "Which property is used to center text?",
+      "options": ["align", "text-align", "center", "text-center"],
+      "answer": "text-align"
+    },
+    {
+      "id": 5,
+      "question": "What is the default display value for a <div>?",
+      "options": ["inline", "block", "flex", "grid"],
+      "answer": "block"
+    },
+    {
+      "id": 6,
+      "question": "Which property is used to add space between elements?",
+      "options": ["spacing", "margin", "padding", "gap"],
+      "answer": "margin"
+    },
+    {
+      "id": 7,
+      "question": "What does the :hover pseudo-class do?",
+      "options": ["On click", "On hover", "On focus", "On load"],
+      "answer": "On hover"
+    },
+    {
+      "id": 8,
+      "question": "Which property is used for font size?",
+      "options": ["text-size", "font-size", "size", "font"],
+      "answer": "font-size"
+    },
+    {
+      "id": 9,
+      "question": "What is the CSS box model?",
+      "options": ["Margin, Border, Padding, Content", "Width, Height, Depth", "Top, Right, Bottom, Left", "Color, Size, Style"],
+      "answer": "Margin, Border, Padding, Content"
+    },
+    {
+      "id": 10,
+      "question": "Which property is used for rounded corners?",
+      "options": ["border-radius", "corner-radius", "round", "border-round"],
+      "answer": "border-radius"
+    },
+    {
+      "id": 11,
+      "question": "What does flexbox provide?",
+      "options": ["Flexible layout", "Fixed layout", "Grid layout", "Table layout"],
+      "answer": "Flexible layout"
+    },
+    {
+      "id": 12,
+      "question": "Which property is used for transparency?",
+      "options": ["opacity", "transparent", "alpha", "visibility"],
+      "answer": "opacity"
+    },
+    {
+      "id": 13,
+      "question": "What does z-index control?",
+      "options": ["Horizontal position", "Vertical position", "Stacking order", "Size"],
+      "answer": "Stacking order"
+    },
+    {
+      "id": 14,
+      "question": "Which unit is relative to font size?",
+      "options": ["px", "em", "cm", "in"],
+      "answer": "em"
+    },
+    {
+      "id": 15,
+      "question": "What does !important do?",
+      "options": ["Makes rule important", "Overrides other rules", "Increases priority", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "id": 16,
+      "question": "Which property is used for shadows?",
+      "options": ["shadow", "box-shadow", "text-shadow", "Both B and C"],
+      "answer": "Both B and C"
+    },
+    {
+      "id": 17,
+      "question": "What does position: absolute do?",
+      "options": ["Relative to parent", "Relative to viewport", "Fixed position", "Static position"],
+      "answer": "Relative to parent"
+    },
+    {
+      "id": 18,
+      "question": "Which property is used for transitions?",
+      "options": ["transition", "animate", "transform", "change"],
+      "answer": "transition"
+    },
+    {
+      "id": 19,
+      "question": "What does @media query do?",
+      "options": ["Media queries", "Responsive design", "Both", "Neither"],
+      "answer": "Both"
+    },
+    {
+      "id": 20,
+      "question": "Which property is used for text decoration?",
+      "options": ["text-decoration", "decoration", "text-style", "font-decoration"],
+      "answer": "text-decoration"
+    }
+  ],
+  "javascript": [
+    {
+      "id": 1,
+      "question": "What is the correct way to declare a variable in JavaScript?",
+      "options": ["var x = 5", "variable x = 5", "v x = 5", "declare x = 5"],
+      "answer": "var x = 5"
+    },
+    {
+      "id": 2,
+      "question": "Which operator is used for strict equality?",
+      "options": ["==", "===", "=", "!="],
+      "answer": "==="
+    },
+    {
+      "id": 3,
+      "question": "What does the typeof operator return for an array?",
+      "options": ["array", "object", "Array", "list"],
+      "answer": "object"
+    },
+    {
+      "id": 4,
+      "question": "Which method is used to add an element to an array?",
+      "options": ["push()", "add()", "append()", "insert()"],
+      "answer": "push()"
+    },
+    {
+      "id": 5,
+      "question": "What is a closure in JavaScript?",
+      "options": ["Function inside function", "Variable scope", "Both", "Neither"],
+      "answer": "Both"
+    },
+    {
+      "id": 6,
+      "question": "Which keyword is used to declare a constant?",
+      "options": ["const", "constant", "let", "var"],
+      "answer": "const"
+    },
+    {
+      "id": 7,
+      "question": "What does the arrow function syntax look like?",
+      "options": ["() => {}", "function() {}", "() -> {}", "() => []"],
+      "answer": "() => {}"
+    },
+    {
+      "id": 8,
+      "question": "Which method is used to select an element by ID?",
+      "options": ["getElementById()", "querySelector()", "getElement()", "selectById()"],
+      "answer": "getElementById()"
+    },
+    {
+      "id": 9,
+      "question": "What does JSON.parse() do?",
+      "options": ["Converts object to string", "Converts string to object", "Parses JSON", "Both B and C"],
+      "answer": "Both B and C"
+    },
+    {
+      "id": 10,
+      "question": "Which event is triggered when page loads?",
+      "options": ["onload", "onready", "onstart", "oninit"],
+      "answer": "onload"
+    },
+    {
+      "id": 11,
+      "question": "What is the purpose of the map() method?",
+      "options": ["Creates new array", "Transforms elements", "Both", "Neither"],
+      "answer": "Both"
+    },
+    {
+      "id": 12,
+      "question": "Which keyword is used for asynchronous operations?",
+      "options": ["async", "await", "promise", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "id": 13,
+      "question": "What does the spread operator do?",
+      "options": ["Expands array", "Copies array", "Both", "Neither"],
+      "answer": "Both"
+    },
+    {
+      "id": 14,
+      "question": "Which method is used to remove the last element?",
+      "options": ["pop()", "shift()", "remove()", "delete()"],
+      "answer": "pop()"
+    },
+    {
+      "id": 15,
+      "question": "What is the purpose of localStorage?",
+      "options": ["Store data", "Persistent storage", "Both", "Neither"],
+      "answer": "Both"
+    },
+    {
+      "id": 16,
+      "question": "Which method is used to find an element in an array?",
+      "options": ["find()", "search()", "locate()", "get()"],
+      "answer": "find()"
+    },
+    {
+      "id": 17,
+      "question": "What does the bind() method do?",
+      "options": ["Binds function", "Sets this context", "Both", "Neither"],
+      "answer": "Both"
+    },
+    {
+      "id": 18,
+      "question": "Which operator is used for nullish coalescing?",
+      "options": ["??", "||", "&&", "?:?"],
+      "answer": "??"
+    },
+    {
+      "id": 19,
+      "question": "What is a Promise?",
+      "options": ["Async operation", "Future value", "Both", "Neither"],
+      "answer": "Both"
+    },
+    {
+      "id": 20,
+      "question": "Which method is used to filter an array?",
+      "options": ["filter()", "select()", "choose()", "pick()"],
+      "answer": "filter()"
+    }
+  ],
+  "dbms": [
+    {
+      "id": 1,
+      "question": "What does DBMS stand for?",
+      "options": ["Database Management System", "Data Base Management System", "Database Manipulation System", "Data Backup Management System"],
+      "answer": "Database Management System"
+    },
+    {
+      "id": 2,
+      "question": "What is a primary key?",
+      "options": ["Unique identifier", "Foreign key", "Composite key", "Index key"],
+      "answer": "Unique identifier"
+    },
+    {
+      "id": 3,
+      "question": "What does SQL stand for?",
+      "options": ["Structured Query Language", "Simple Query Language", "Standard Query Language", "System Query Language"],
+      "answer": "Structured Query Language"
+    },
+    {
+      "id": 4,
+      "question": "Which command is used to retrieve data?",
+      "options": ["GET", "SELECT", "FETCH", "RETRIEVE"],
+      "answer": "SELECT"
+    },
+    {
+      "id": 5,
+      "question": "What is normalization?",
+      "options": ["Organizing data", "Reducing redundancy", "Both", "Neither"],
+      "answer": "Both"
+    },
+    {
+      "id": 6,
+      "question": "Which join returns all rows from both tables?",
+      "options": ["INNER JOIN", "LEFT JOIN", "FULL OUTER JOIN", "RIGHT JOIN"],
+      "answer": "FULL OUTER JOIN"
+    },
+    {
+      "id": 7,
+      "question": "What is a foreign key?",
+      "options": ["References another table", "Unique key", "Primary key", "Index"],
+      "answer": "References another table"
+    },
+    {
+      "id": 8,
+      "question": "Which command is used to insert data?",
+      "options": ["ADD", "INSERT", "CREATE", "UPDATE"],
+      "answer": "INSERT"
+    },
+    {
+      "id": 9,
+      "question": "What does ACID stand for?",
+      "options": ["Atomicity, Consistency, Isolation, Durability", "Accuracy, Consistency, Integrity, Durability", "Atomicity, Correctness, Isolation, Data", "All, Consistent, Isolated, Durable"],
+      "answer": "Atomicity, Consistency, Isolation, Durability"
+    },
+    {
+      "id": 10,
+      "question": "Which command is used to delete data?",
+      "options": ["DELETE", "REMOVE", "DROP", "ERASE"],
+      "answer": "DELETE"
+    },
+    {
+      "id": 11,
+      "question": "What is an index?",
+      "options": ["Improves query performance", "Data structure", "Both", "Neither"],
+      "answer": "Both"
+    },
+    {
+      "id": 12,
+      "question": "Which constraint ensures uniqueness?",
+      "options": ["PRIMARY KEY", "UNIQUE", "Both", "Neither"],
+      "answer": "Both"
+    },
+    {
+      "id": 13,
+      "question": "What is a transaction?",
+      "options": ["Single operation", "Multiple operations", "Both", "Neither"],
+      "answer": "Both"
+    },
+    {
+      "id": 14,
+      "question": "Which command is used to modify data?",
+      "options": ["MODIFY", "UPDATE", "CHANGE", "ALTER"],
+      "answer": "UPDATE"
+    },
+    {
+      "id": 15,
+      "question": "What is a view?",
+      "options": ["Virtual table", "Physical table", "Query result", "Index"],
+      "answer": "Virtual table"
+    },
+    {
+      "id": 16,
+      "question": "Which operator is used for pattern matching?",
+      "options": ["LIKE", "MATCH", "FIND", "SEARCH"],
+      "answer": "LIKE"
+    },
+    {
+      "id": 17,
+      "question": "What is a stored procedure?",
+      "options": ["Precompiled SQL", "Function", "Both", "Neither"],
+      "answer": "Both"
+    },
+    {
+      "id": 18,
+      "question": "Which command is used to create a table?",
+      "options": ["CREATE TABLE", "MAKE TABLE", "BUILD TABLE", "NEW TABLE"],
+      "answer": "CREATE TABLE"
+    },
+    {
+      "id": 19,
+      "question": "What is a trigger?",
+      "options": ["Automatic action", "Event handler", "Both", "Neither"],
+      "answer": "Both"
+    },
+    {
+      "id": 20,
+      "question": "Which aggregate function counts rows?",
+      "options": ["SUM()", "COUNT()", "AVG()", "MAX()"],
+      "answer": "COUNT()"
+    }
+  ]
+}
+
